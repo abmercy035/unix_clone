@@ -21,6 +21,8 @@ func main() {
 		cmd.RunEcho(args)
 	case "cat":
 		cmd.RunCat(args)
+	case "ls":
+		cmd.RunLs(args)
 	default:
 		fmt.Fprintf(os.Stderr, "Unknown command: %s\n", command)
 		os.Exit(1)

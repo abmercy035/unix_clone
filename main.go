@@ -21,6 +21,10 @@ func main() {
 		cmd.RunEcho(args)
 	case "cat":
 		cmd.RunCat(args)
+	case "grep":
+		cmd.RunGrep(args)
+	case "wc":
+		cmd.RunWc(args)
 	case "ls":
 		cmd.RunLs(args)
 	default:
